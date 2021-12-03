@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+  <title>Login form</title>
+  <meta name="description" content="Come and see our new DPAM">
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/75377dacc1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div id="header">
+<br>
+<a href="index.html"><img src="images/logo.jpg" id="logo-la-cigogne" alt="logo-la-cigogne"></a>
+
+<div class="search-bar">
+        <div class="search_box">
+          <input type="text" class="input" placeholder="I'm looking for...">
+          <div class="btn btn_common">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+</div>
+
+<div class="corner-header">
+  
+  <a href="about-us.html"><p id="about-us-our-engagements">About us & our engagements</p></a>
+  <a href="contact-us.html"><p id="contact-us">Contact us</p></a>
+  <br>
+  <br>
+  <img src="images/my-favourites.jpg" class="my-favourites-img" alt="my-favourites" href="#">
+  <img src="images/my-account.jpg" class="my-account-img" alt="my-account" href="#">
+  <a href="shopping-cart.html"><img src="images/basket.jpg" class="my-cart-img" alt="my-cart" href="#"></a>
+
+</div>
+
+
+<p class="sentence-children-shopping">Children’s shopping becomes eco-friendly...</p>
+
+<br>
+
+<div class="scrollmenu">
+  <a href="#back-to-class" class="back-to-class">Back to class</a>
+  <a href="product_dresses.html">Clothes</a>
+  <a href="#shoes">Shoes</a>
+  <a href="#accessories">Accessories</a>
+  <a href="#equipment">Equipment</a>
+  <a href="#toys">Toys</a>
+  <a href="#rent-second-hand" class="rent-second-hand">Rent / Second Hand</a>
+</div>
+
+<br>
+
+<a class="free-home-delivery">FREE HOME DELIVERY from 80 €</a>
+
+<br>
+<br>
+<br>
+<br>
+
+      <div class="wrapper">
+         <div class="title-text">
+            <div class="title login">
+               Login Form
+            </div>
+            <div class="title signup">
+               Signup Form
+            </div>
+         </div>
+         <div class="form-container">
+            <div class="slide-controls">
+               <input type="radio" name="slide" id="login" checked>
+               <input type="radio" name="slide" id="signup">
+               <label for="login" class="slide login">Login</label>
+               <label for="signup" class="slide signup">Sign up</label>
+               <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+               <form action="#" class="login">
+                  <div class="field">
+                     <input type="text" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="pass-link">
+                     <a href="#">Forgot password?</a>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Login">
+                  </div>
+                  <div class="signup-link">
+                     Not a member? <a href="">Sign up now</a>
+                  </div>
+               </form>
+               <form action="#" class="signup">
+                  <div class="field">
+                     <input type="text" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Confirm password" required>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Signup">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script>
+         const loginText = document.querySelector(".title-text .login");
+         const loginForm = document.querySelector("form.login");
+         const loginBtn = document.querySelector("label.login");
+         const signupBtn = document.querySelector("label.signup");
+         const signupLink = document.querySelector("form .signup-link a");
+         signupBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "-50%";
+           loginText.style.marginLeft = "-50%";
+         });
+         loginBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "0%";
+           loginText.style.marginLeft = "0%";
+         });
+         signupLink.onclick = (()=>{
+           signupBtn.click();
+           return false;
+         });
+      </script>
+ 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="footer-top">
+      <a class="closer-to-you">We are closer to you than you can ever imagine!</a>
+      <br>
+      <br>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="bottom-footer">
+      <br>
+
+<div class="bottom-footer">
+
+<br>
+
+  <ul class="list-one">
+    <li class="footer-title">User Guide</li>
+    <li>User Guide</li>
+    <li>About Payments methods</li>
+    <li>About shipping fees</li>
+  </ul>
+
+  <ul class="list-two">
+    <li class="footer-title">About our shop</li>
+    <li>Our story</li>
+    <li>Terms of services</li>
+    <li>Privacy policy</li>
+    <li>Q&A</li>
+  </ul>
+
+<p id="copyright">© 2021 LA CIGOGNE All Right Reserved</p>
+
+<br><br><br>
+
+</div>
+
+</body>
+
+</html>

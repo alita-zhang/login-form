@@ -1,0 +1,33 @@
+.btn-white{
+	background-color: #f4efef;
+	padding: 15px 20px;
+	border-radius: 6px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	position: relative;
+}
+
+.btn_pink{
+	width: 304px;
+	height: 123px;
+	left: 768px;
+	top: 563px;
+	background: #F38181;
+	border-radius: 15px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	line-height: 35px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.btn_dark_grey {
+	position: absolute;
+	width: 212px;
+	height: 33px;
+	left: 40px;
+	top: 652px;
+}

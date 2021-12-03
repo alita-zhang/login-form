@@ -1,0 +1,51 @@
+.input{
+  border: 0;
+  outline: none;
+  background-color: #E9E9E9;
+}
+
+.search-bar .search_box{
+  position: relative;
+  width: 289px;
+  height: 37px;
+}
+
+.search-bar .search_box .input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 80px;
+}
+
+.search-bar .search_box .btn{
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.search-bar .search_box .btn.btn_common .fas{
+  position: absolute;
+  top: 80%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.search-bar .search_box .btn{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.search-bar{
+width: 289px;
+margin-left: auto;
+margin-right: auto;
+}

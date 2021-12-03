@@ -1,0 +1,31 @@
+div.scrollmenu {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  font-family: Dosis;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 5%;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.scrollmenu .back-to-class{
+  color: #95E1D3;
+}
+
+.scrollmenu .rent-second-hand{
+  background-color: #B5D888;
+}
+
+.scrollmenu{
+  size: 100%;
+}

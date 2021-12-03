@@ -1,0 +1,53 @@
+.corner-header{
+	height: 200px;
+	width: 300px;
+	top: 0px;
+	right: 20px;
+	position: absolute;
+}
+
+#about-us-our-engagements{ 
+right: 80px;
+position: absolute;
+width: 147px;
+height: 24px;
+font-family: Dosis;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #000000;
+}
+
+#contact-us{ 
+right: 0px;
+position: absolute;
+width: 67px;
+height: 21px;
+font-family: Dosis;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+color: #000000;
+}
+
+.my-favourites-img{
+	height: 80px;
+	width: 90px;
+	top: 80px;
+	
+}
+
+.my-account-img{
+	height: 80px;
+	width: 90px;
+	top: 80px;
+}
+
+.my-cart-img{
+	height: 80px;
+	width: 90px;
+	top: 85px;
+	right: 0px;
+}
